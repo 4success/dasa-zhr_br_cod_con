@@ -1,0 +1,6 @@
+Para usar essa image, execute o seguinte comando:
+
+ * `docker build -t sapui5-nginx:latest .`
+ * `docker run --name nome-do-container -v ./:/var/www:ro -d sapui5-nginx:latest`
+
+Observação: esses arquivos precisar ficar no root do projeto
